@@ -3,6 +3,8 @@ const username = "n4ss8";
 const repoList = document.querySelector(".repo-list");
 const allRepoInfo = document.querySelector(".repos");
 const repoData = document.querySelector(".repo-data");
+const repoButton = document.querySelector(".view-repos");
+const filterInput = document.querySelector(".filter-repos");
 
 
 const gitInfo = async function () {
